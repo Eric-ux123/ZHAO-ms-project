@@ -1,55 +1,79 @@
 *{
    margin: 0;
    padding: 0;
-   box-sizing: border_box;
-   font-family: "poppins",sans-serif;
-}
- .nav{
-      display: flex;
-      justify-content: center;
-      position: fixed;
-      background-color:red;
-      width: 100%;
-      top: 0%;
-      left: 0%;
-      padding: 20px 0px 30px 0px;
-      z-index: 1;
-
- }
-
-     .nav ul{
-       display: flex;
-       list-style: none;
-       padding: 0%;
-       gap: 30px;
+   box-sizing: border-box;
+   font-family: "Poppins", sans-serif;
 }
 
-    .nav ul li{
-          margin: 0%;
-        padding: 0;
+.nav{
+   display: flex;
+   justify-content: center;
+   position: fixed;
+   background-color: aqua;
+   width: 100%;
+   top: 0;
+   left: 0;
+   padding: 20px 0px 30px 0px;
+   z-index: 1;
 }
 
-    .nav a{
-       text-decoration: none;
-       font-size: 20px;
-       color: black;
-    }
-    header{
-      background-color: lightpink;
-      display: flex;  
-      height: 100vh;
-      width: 100%;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
-    .profile-pic{
-       width: 250px;
-       height: 250px;
-       border-radius: 100%;
-    }
-    .profile{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  }
+.nav ul{
+   display:flex;
+   list-style: none;
+   padding: 0;
+   gap: 30px;
+}
+
+.nav ul li{
+   margin: 0;
+   padding: 0;
+}
+
+.nav a{
+   text-decoration: none;
+   font-size: 20px;
+   color: black;
+}
+
+.container-header{
+   background-color: lightpink;
+   display: flex;
+   height: 100vh;
+   width: 100%;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.profile{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.profile-pic{
+   width: 300px;
+   height: 300px;
+   border-radius: 100%;
+}
+
+.button-group {
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+}
+
+.btn-profile {
+   background-color: salmon;
+   border: none;
+   color: white;
+   padding: 10px 20px;
+   font-size: 16px;
+   cursor: pointer;
+   border-radius: 8px;
+   transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+   background-color: darksalmon;
+}
